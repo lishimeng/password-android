@@ -31,7 +31,8 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:scaleType="fitXY"
-                android:src="@drawable/default_nor_avatar" />
+                android:src="@drawable/default_nor_avatar"
+                android:visibility="gone" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -305,7 +306,7 @@
 
     </LinearLayout>
 
-    <com.thingple.keyboard.widget.VirtualKeyboardView
+    <com.thingple.keyboard.password.widget.VirtualKeyboardView
         android:id="@+id/virtualKeyboardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
